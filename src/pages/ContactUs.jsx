@@ -1,4 +1,5 @@
 import React from "react";
+import home1 from "../img/home1.avif";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation, titleAnim } from "../animation";
@@ -11,7 +12,7 @@ function ContactUs() {
       initial="hidden"
       animate="show"
       exit="exit"
-      style={{ background: "#fff" }}
+      style={{ backgroundImage: { home1 } }}
     >
       <Title>
         <Hide>
@@ -44,7 +45,7 @@ function ContactUs() {
 
 const ContactStyle = styled(motion.div)`
   padding: 5rem 10rem;
-  color: #353535;
+  color: white;
   min-height: 90vh;
   @media (max-width: 1500px) {
     padding: 2rem;
@@ -54,7 +55,7 @@ const ContactStyle = styled(motion.div)`
 
 const Title = styled.div`
   margin-bottom: 4rem;
-  color: black;
+  color: #23d997;
   @media (max-width: 1500px) {
     margin-top: 5rem;
   }
@@ -66,7 +67,7 @@ const Circle = styled.div`
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
-  background: #353535;
+  background: white;
 `;
 
 const Social = styled(motion.div)`

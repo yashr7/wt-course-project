@@ -89,8 +89,7 @@ const Card = styled.div`
 
     h3 {
       margin-left: 1rem;
-      background: white;
-      color: black;
+      color: white;
       padding: 1rem;
     }
   }
