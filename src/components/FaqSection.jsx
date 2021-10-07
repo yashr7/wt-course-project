@@ -16,42 +16,55 @@ function FaqSection() {
       ref={element}
     >
       <h2>
-        Any questions? <span>FAQ</span>
+        Any questions? <span>WHY KLE TECH?</span>
       </h2>
       <AnimateSharedLayout>
-        <Toggle title="How do i start">
+        <Toggle title="Highly Respected Brand in Industry">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              pariatur.
+              Distinctive character established by BVB in the academic space has
+              been a spring board for KLE Tech to emerge as a brand to reckon
+              with. Because of the cutting edge curriculum and quality of
+              graduates, it has gained tremendous credibility with industries
+              and employers
+            </p>
+            <p>
+              KLE Tech is recognized as one of the top 10 engineering colleges
+              in Karnataka. The Alumni of the Institute have done exceedingly
+              well in all spheres of life at both national and international
+              levels bringing respectful identity to Alma Mater.
             </p>
           </div>
         </Toggle>
-        <Toggle title="Daily Schedule">
+        <Toggle title="Vibrant Campus Culture">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              pariatur.
+              The campus is a hub of co-curricular and extracurricular
+              activities that offer many ways to get involved to make life
+              outside the classroom exciting and rewarding. Various forums and
+              clubs dole out opportunities for the students through technical
+              competitions, seminars, workshops, cultural, social and literary
+              events.
+            </p>
+            <p>
+              What makes these activities especially brilliant is the fact that
+              they are not focused solely on winning trophies but in providing
+              an atmosphere to nurture the innate talent of students in the
+              college.
             </p>
           </div>
         </Toggle>
-        <Toggle title="Different Payment Methods">
+        <Toggle title="Entrepreneurial Ecosystem">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              pariatur.
+              KLE Tech has proven to be one of the top universities for startup
+              creation over the past few years.
             </p>
-          </div>
-        </Toggle>
-        <Toggle title="What Products Do You Offer">
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis,
-              pariatur.
+              A new entrepreneurial and innovation culture is hallmark of KLE
+              Tech campus.. This cultural movement was catalyzed by ‘Centre for
+              Technology Innovation and Entrepreneurship’ (CTIE) through formal
+              and informal activities across the campus.
             </p>
           </div>
         </Toggle>

@@ -4,7 +4,7 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
+import home2 from "../img/home1.jpg";
 //Styles
 import styled from "styled-components";
 import { About, Description, Image } from "../styles";
@@ -23,36 +23,28 @@ function ServicesSection() {
     >
       <Description>
         <h2>
-          High <span>quality</span> services{" "}
+          High <span>quality</span> education{" "}
         </h2>
         <Cards>
           <Card>
             <div className="icon">
               <img src={clock} alt="clock" />
-              <h3>Efficient</h3>
+              <h3>Minors that take you Beyond</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              Distinctive character established by BVB in the academic space has
+              been a spring board for KLE Tech
+            </p>
           </Card>
           <Card>
             <div className="icon">
               <img src={teamwork} alt="teamwork" />
-              <h3>Teamwork</h3>
+              <h3>Unrivalled Student Achievements</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </Card>
-          <Card>
-            <div className="icon">
-              <img src={diaphragm} alt="diaphragm" />
-              <h3>Diaphragm</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </Card>
-          <Card>
-            <div className="icon">
-              <img src={money} alt="money" />
-              <h3>Affordable</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>
+              The accolades they have won in the last few years are testament to
+              their inventiveness and creativity.
+            </p>
           </Card>
         </Cards>
       </Description>

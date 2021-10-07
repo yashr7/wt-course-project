@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 //Images
-import athlete from "../img/athlete-small.png";
-import racer from "../img/theracer-small.png";
+import athlete from "../img/xd.png";
+import racer from "../img/xd2.png";
 import goodtimes from "../img/goodtimes-small.png";
 //Animations
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ function OurWork() {
         <Frame4 variants={slider}></Frame4>
       </motion.div>
       <Movie>
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Milestone</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-athlete">
           <Hide>
@@ -51,7 +51,7 @@ function OurWork() {
           <img src={racer} alt="racer" />
         </Link>
       </Movie>
-      <Movie
+      {/* <Movie
         ref={element2}
         variants={fade}
         animate={controls2}
@@ -62,7 +62,7 @@ function OurWork() {
         <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
-      </Movie>
+      </Movie> */}
       <ScrollTop />
     </Work>
   );
